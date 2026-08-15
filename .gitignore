@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+lib/
+dist/
+.client-build/
+*.tsbuildinfo
+*.tsbuildinfo.*
+
+# Tests / coverage
+coverage/
+
+# Local plugin tooling
+.pnpm-home/
+.pnpm-store/
+
+# Logs & temp
+*.log
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Skill runtime artifacts (蒸馏中间产物等，不入仓)
+output/
